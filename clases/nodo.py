@@ -2,10 +2,12 @@
 class Nodo(object):
 
     def __init__(self, valor=None):
+    # Atributos
         self._valor = valor
         self._padre = None
         self._hijoizda = None
         self._hijodcha = None
+
 
     def insertarInformado(self, nodo):
         if nodo._valor <= self._valor:
