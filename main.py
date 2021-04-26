@@ -20,7 +20,6 @@ miarbol.recorridoposorden()
 print("\nRecorrido anchura")
 miarbol.recorridoanchura()
 print("\n\nLa profundidad del árbol es", miarbol.calculaprofundidad())
-# Esto es una prueba.
 nodoaux = miarbol.buscarInformado(10) # Devuelve la referencia al nodo encontrado.
 
 if nodoaux != None:
